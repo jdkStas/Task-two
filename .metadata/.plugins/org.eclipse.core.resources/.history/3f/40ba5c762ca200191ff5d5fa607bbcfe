@@ -23,11 +23,13 @@ public class Main {
 		System.out.println("The sum of the array numbers is " + sum);
 		//3, 4. Task three and four
 		for(int i = 0; i < name.length; i++){
-			array[name[i]]++;
-		}	
-		for(int i = 0; i < array.length; i++){
-			System.out.println("The number " + i + "was found in the array " + array[i] + " times");
+			array[name[i]+1]++;
 		}
+		System.out.println("The number 1 was found in the array " + array[1] + " times");
+		System.out.println("The number 2 was found in the array " + array[2] + " times");
+		System.out.println("The number 3 was found in the array " + array[3] + " times");
+		System.out.println("The number 4 was found in the array " + array[4] + " times");
+		System.out.println("The number 5 was found in the array " + array[5] + " times");
 		//5. Task five
 		char[] chars = new char[n]; 
         for (int i = 0; i < n; i++)

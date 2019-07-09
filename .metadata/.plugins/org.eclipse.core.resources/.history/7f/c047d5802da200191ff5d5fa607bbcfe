@@ -24,9 +24,7 @@ public class Main {
 		//3, 4. Task three and four
 		for(int i = 0; i < name.length; i++){
 			array[name[i]]++;
-		}	
-		for(int i = 0; i < array.length; i++){
-			System.out.println("The number " + i + "was found in the array " + array[i] + " times");
+			System.out.println("The number 1 was found in the array " + array[name[i]]++ + " times");
 		}
 		//5. Task five
 		char[] chars = new char[n]; 
